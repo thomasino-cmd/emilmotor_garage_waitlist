@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 type Props = {
@@ -37,11 +38,14 @@ export function BrandLogo({ brand, className = '' }: Props) {
     }
 
     return (
-        <img
-            src={`/assets/logos/${slug}.png`}
-            alt={`${brand} logo`}
-            className={cn("object-contain", className)}
-            onError={() => setHasError(true)}
-        />
+        <div className={cn("relative", className)}>
+            <Image
+                src={`/assets/logos/${slug}.png`}
+                alt={`${brand} logo`}
+                fill
+                className="object-contain"
+                onError={() => setHasError(true)}
+            />
+        </div>
     );
 }

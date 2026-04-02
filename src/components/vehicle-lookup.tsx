@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { BlueprintCar } from './blueprint-car';
 import { BlueprintShape } from '@/lib/types';
 import { vehicles } from '@/lib/mock-db';
@@ -58,7 +59,12 @@ export function VehicleLookup() {
               if (vData && vData.imagePath) {
                 return (
                   <div className="relative flex items-center justify-center h-24 mb-2 mt-2 w-full">
-                    <img src={vData.imagePath} alt={`${result.make} ${result.model}`} className="max-h-full max-w-full object-contain drop-shadow-md" />
+                    <Image 
+                      src={vData.imagePath} 
+                      alt={`${result.make} ${result.model}`} 
+                      fill
+                      className="object-contain drop-shadow-md" 
+                    />
                   </div>
                 )
               }

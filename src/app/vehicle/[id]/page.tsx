@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { clients, jobs as jobsDb, vehicles, appointments as appointmentsDb } from '@/lib/mock-db';
@@ -90,7 +91,12 @@ export default function VehicleProfilePage() {
 
         <div className="w-full md:w-1/2 h-56 md:h-72 relative flex items-center justify-center z-10 perspective-1000">
           {vData && vData.imagePath ? (
-            <img src={vData.imagePath} alt={`${vehicle.make} ${vehicle.model}`} className="max-h-full max-w-full object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" />
+            <Image 
+              src={vData.imagePath} 
+              alt={`${vehicle.make} ${vehicle.model}`} 
+              fill
+              className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" 
+            />
           ) : (
             <BlueprintCar shape={vehicle.blueprintShape || 'sedan'} color={vehicle.color || '#3b82f6'} className="w-full h-full hover:scale-105 transition-transform duration-500" />
           )}

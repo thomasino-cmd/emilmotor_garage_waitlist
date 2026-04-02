@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { DndContext, DragEndEvent, DragStartEvent, useDraggable, useDroppable, DragOverlay } from '@dnd-kit/core';
 import Link from 'next/link';
 import { appointments, clients, vehicles } from '@/lib/mock-db';
@@ -59,7 +60,12 @@ function Card({ id, vehicleId, isLarge = false, isClone = false }: { id: string;
           if (vData && vData.imagePath) {
             return (
               <div className={cn("relative flex items-center justify-center w-full", isLarge ? "mb-4 h-44" : "mb-3 h-32")}>
-                <img src={vData.imagePath} alt={`${vehicle.make} ${vehicle.model}`} className="max-h-full max-w-full object-contain drop-shadow-xl transition-transform group-hover:scale-110 duration-500" />
+                <Image 
+                  src={vData.imagePath} 
+                  alt={`${vehicle.make} ${vehicle.model}`} 
+                  fill
+                  className="object-contain drop-shadow-xl transition-transform group-hover:scale-110 duration-500" 
+                />
               </div>
             )
           }
