@@ -1,0 +1,120 @@
+Lista dei modelli di auto per marca considerati nel sito:
+
+Fiat:
+- Panda
+- Idea
+- Tipo
+- Doblo
+- 500
+- 600
+- Freemont
+- Multipla
+- Qubo
+- Punto
+- Bravo
+
+Volkswagen:
+- Golf
+- Polo
+- Passat
+- Tiguan
+- T-Roc
+- Up!
+- Touareg
+
+Toyota:
+- Yaris
+- Corolla
+- Aygo
+- RAV4
+- C-HR
+
+Ford:
+- Fiesta
+- Focus
+- Puma
+- Kuga
+- Ecosport
+
+Peugeot:
+- 208
+- 2008
+- 308
+- 3008
+- 5008
+
+Citroen:
+- C3
+- C3 Aircross
+- C4
+- C5 Aircross
+- Berlingo
+
+Jeep:
+- Renegade
+- Compass
+- Avenger
+- Wrangler
+- Grand Cherokee
+
+Suzuki:
+- Swift
+- Ignis
+- Vitara
+- S-Cross
+- Jimny
+
+Honda:
+- Civic
+- Jazz
+- HR-V
+- CR-V
+
+Audi:
+- A1
+- A3
+- A4
+- Q2
+- Q3
+- Q5
+
+Nissan:
+- Micra
+- Juke
+- Qashqai
+- X-Trail
+- Leaf
+
+Mercedes:
+- Classe A
+- Classe C
+- GLA
+- GLC
+- Vito
+
+BMW:
+- Serie 1
+- Serie 3
+- X1
+- X3
+- X5
+
+Renault:
+- Clio
+- Captur
+- Megane
+- Kadjar
+- Kangoo
+
+Opel:
+- Corsa
+- Astra
+- Mokka
+- Crossland
+- Grandland
+
+Alfa Romeo:
+- Giulietta
+- Giulia
+- Stelvio
+- Tonale

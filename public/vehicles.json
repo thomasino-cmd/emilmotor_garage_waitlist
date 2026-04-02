@@ -1,0 +1,872 @@
+[
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Panda",
+    "modelSlug": "panda",
+    "imagePath": "/assets/cars/fiat/panda.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Panda+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Idea",
+    "modelSlug": "idea",
+    "imagePath": "/assets/cars/fiat/idea.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Idea+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Tipo",
+    "modelSlug": "tipo",
+    "imagePath": "/assets/cars/fiat/tipo.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Tipo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Doblo",
+    "modelSlug": "doblo",
+    "imagePath": "/assets/cars/fiat/doblo.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Doblo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "500",
+    "modelSlug": "500",
+    "imagePath": "/assets/cars/fiat/500.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+500+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "600",
+    "modelSlug": "600",
+    "imagePath": "/assets/cars/fiat/600.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+600+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Freemont",
+    "modelSlug": "freemont",
+    "imagePath": "/assets/cars/fiat/freemont.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Freemont+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Multipla",
+    "modelSlug": "multipla",
+    "imagePath": "/assets/cars/fiat/multipla.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Multipla+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Qubo",
+    "modelSlug": "qubo",
+    "imagePath": "/assets/cars/fiat/qubo.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Qubo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Punto",
+    "modelSlug": "punto",
+    "imagePath": "/assets/cars/fiat/punto.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Punto+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Fiat",
+    "brandSlug": "fiat",
+    "model": "Bravo",
+    "modelSlug": "bravo",
+    "imagePath": "/assets/cars/fiat/bravo.png",
+    "logoPath": "/assets/logos/fiat.png",
+    "sourcePage": "https://duckduckgo.com/?q=Fiat+Bravo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "Golf",
+    "modelSlug": "golf",
+    "imagePath": "/assets/cars/volkswagen/golf.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+Golf+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "Polo",
+    "modelSlug": "polo",
+    "imagePath": "/assets/cars/volkswagen/polo.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+Polo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "Passat",
+    "modelSlug": "passat",
+    "imagePath": "/assets/cars/volkswagen/passat.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+Passat+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "Tiguan",
+    "modelSlug": "tiguan",
+    "imagePath": "/assets/cars/volkswagen/tiguan.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+Tiguan+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "T-Roc",
+    "modelSlug": "t-roc",
+    "imagePath": "/assets/cars/volkswagen/t-roc.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+T-Roc+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "Up!",
+    "modelSlug": "up",
+    "imagePath": "/assets/cars/volkswagen/up.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+Up!+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Volkswagen",
+    "brandSlug": "volkswagen",
+    "model": "Touareg",
+    "modelSlug": "touareg",
+    "imagePath": "/assets/cars/volkswagen/touareg.png",
+    "logoPath": "/assets/logos/volkswagen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Volkswagen+Touareg+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Toyota",
+    "brandSlug": "toyota",
+    "model": "Yaris",
+    "modelSlug": "yaris",
+    "imagePath": "/assets/cars/toyota/yaris.png",
+    "logoPath": "/assets/logos/toyota.png",
+    "sourcePage": "https://duckduckgo.com/?q=Toyota+Yaris+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Toyota",
+    "brandSlug": "toyota",
+    "model": "Corolla",
+    "modelSlug": "corolla",
+    "imagePath": "/assets/cars/toyota/corolla.png",
+    "logoPath": "/assets/logos/toyota.png",
+    "sourcePage": "https://duckduckgo.com/?q=Toyota+Corolla+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Toyota",
+    "brandSlug": "toyota",
+    "model": "Aygo",
+    "modelSlug": "aygo",
+    "imagePath": "/assets/cars/toyota/aygo.png",
+    "logoPath": "/assets/logos/toyota.png",
+    "sourcePage": "https://duckduckgo.com/?q=Toyota+Aygo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Toyota",
+    "brandSlug": "toyota",
+    "model": "RAV4",
+    "modelSlug": "rav4",
+    "imagePath": "/assets/cars/toyota/rav4.png",
+    "logoPath": "/assets/logos/toyota.png",
+    "sourcePage": "https://duckduckgo.com/?q=Toyota+RAV4+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Toyota",
+    "brandSlug": "toyota",
+    "model": "C-HR",
+    "modelSlug": "c-hr",
+    "imagePath": "/assets/cars/toyota/c-hr.png",
+    "logoPath": "/assets/logos/toyota.png",
+    "sourcePage": "https://duckduckgo.com/?q=Toyota+C-HR+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Ford",
+    "brandSlug": "ford",
+    "model": "Fiesta",
+    "modelSlug": "fiesta",
+    "imagePath": "/assets/cars/ford/fiesta.png",
+    "logoPath": "/assets/logos/ford.png",
+    "sourcePage": "https://duckduckgo.com/?q=Ford+Fiesta+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Ford",
+    "brandSlug": "ford",
+    "model": "Focus",
+    "modelSlug": "focus",
+    "imagePath": "/assets/cars/ford/focus.png",
+    "logoPath": "/assets/logos/ford.png",
+    "sourcePage": "https://duckduckgo.com/?q=Ford+Focus+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Ford",
+    "brandSlug": "ford",
+    "model": "Puma",
+    "modelSlug": "puma",
+    "imagePath": "/assets/cars/ford/puma.png",
+    "logoPath": "/assets/logos/ford.png",
+    "sourcePage": "https://duckduckgo.com/?q=Ford+Puma+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Ford",
+    "brandSlug": "ford",
+    "model": "Kuga",
+    "modelSlug": "kuga",
+    "imagePath": "/assets/cars/ford/kuga.png",
+    "logoPath": "/assets/logos/ford.png",
+    "sourcePage": "https://duckduckgo.com/?q=Ford+Kuga+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Ford",
+    "brandSlug": "ford",
+    "model": "Ecosport",
+    "modelSlug": "ecosport",
+    "imagePath": "/assets/cars/ford/ecosport.png",
+    "logoPath": "/assets/logos/ford.png",
+    "sourcePage": "https://duckduckgo.com/?q=Ford+Ecosport+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Peugeot",
+    "brandSlug": "peugeot",
+    "model": "208",
+    "modelSlug": "208",
+    "imagePath": "/assets/cars/peugeot/208.png",
+    "logoPath": "/assets/logos/peugeot.png",
+    "sourcePage": "https://duckduckgo.com/?q=Peugeot+208+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Peugeot",
+    "brandSlug": "peugeot",
+    "model": "2008",
+    "modelSlug": "2008",
+    "imagePath": "/assets/cars/peugeot/2008.png",
+    "logoPath": "/assets/logos/peugeot.png",
+    "sourcePage": "https://duckduckgo.com/?q=Peugeot+2008+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Peugeot",
+    "brandSlug": "peugeot",
+    "model": "308",
+    "modelSlug": "308",
+    "imagePath": "/assets/cars/peugeot/308.png",
+    "logoPath": "/assets/logos/peugeot.png",
+    "sourcePage": "https://duckduckgo.com/?q=Peugeot+308+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Peugeot",
+    "brandSlug": "peugeot",
+    "model": "3008",
+    "modelSlug": "3008",
+    "imagePath": "/assets/cars/peugeot/3008.png",
+    "logoPath": "/assets/logos/peugeot.png",
+    "sourcePage": "https://duckduckgo.com/?q=Peugeot+3008+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Peugeot",
+    "brandSlug": "peugeot",
+    "model": "5008",
+    "modelSlug": "5008",
+    "imagePath": "/assets/cars/peugeot/5008.png",
+    "logoPath": "/assets/logos/peugeot.png",
+    "sourcePage": "https://duckduckgo.com/?q=Peugeot+5008+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Citroen",
+    "brandSlug": "citroen",
+    "model": "C3",
+    "modelSlug": "c3",
+    "imagePath": "/assets/cars/citroen/c3.png",
+    "logoPath": "/assets/logos/citroen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Citroen+C3+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Citroen",
+    "brandSlug": "citroen",
+    "model": "C3 Aircross",
+    "modelSlug": "c3-aircross",
+    "imagePath": "/assets/cars/citroen/c3-aircross.png",
+    "logoPath": "/assets/logos/citroen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Citroen+C3%20Aircross+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Citroen",
+    "brandSlug": "citroen",
+    "model": "C4",
+    "modelSlug": "c4",
+    "imagePath": "/assets/cars/citroen/c4.png",
+    "logoPath": "/assets/logos/citroen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Citroen+C4+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Citroen",
+    "brandSlug": "citroen",
+    "model": "C5 Aircross",
+    "modelSlug": "c5-aircross",
+    "imagePath": "/assets/cars/citroen/c5-aircross.png",
+    "logoPath": "/assets/logos/citroen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Citroen+C5%20Aircross+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Citroen",
+    "brandSlug": "citroen",
+    "model": "Berlingo",
+    "modelSlug": "berlingo",
+    "imagePath": "/assets/cars/citroen/berlingo.png",
+    "logoPath": "/assets/logos/citroen.png",
+    "sourcePage": "https://duckduckgo.com/?q=Citroen+Berlingo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Jeep",
+    "brandSlug": "jeep",
+    "model": "Renegade",
+    "modelSlug": "renegade",
+    "imagePath": "/assets/cars/jeep/renegade.png",
+    "logoPath": "/assets/logos/jeep.png",
+    "sourcePage": "https://duckduckgo.com/?q=Jeep+Renegade+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Jeep",
+    "brandSlug": "jeep",
+    "model": "Compass",
+    "modelSlug": "compass",
+    "imagePath": "/assets/cars/jeep/compass.png",
+    "logoPath": "/assets/logos/jeep.png",
+    "sourcePage": "https://duckduckgo.com/?q=Jeep+Compass+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Jeep",
+    "brandSlug": "jeep",
+    "model": "Avenger",
+    "modelSlug": "avenger",
+    "imagePath": "/assets/cars/jeep/avenger.png",
+    "logoPath": "/assets/logos/jeep.png",
+    "sourcePage": "https://duckduckgo.com/?q=Jeep+Avenger+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Jeep",
+    "brandSlug": "jeep",
+    "model": "Wrangler",
+    "modelSlug": "wrangler",
+    "imagePath": "/assets/cars/jeep/wrangler.png",
+    "logoPath": "/assets/logos/jeep.png",
+    "sourcePage": "https://duckduckgo.com/?q=Jeep+Wrangler+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Jeep",
+    "brandSlug": "jeep",
+    "model": "Grand Cherokee",
+    "modelSlug": "grand-cherokee",
+    "imagePath": "/assets/cars/jeep/grand-cherokee.png",
+    "logoPath": "/assets/logos/jeep.png",
+    "sourcePage": "https://duckduckgo.com/?q=Jeep+Grand%20Cherokee+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Suzuki",
+    "brandSlug": "suzuki",
+    "model": "Swift",
+    "modelSlug": "swift",
+    "imagePath": "/assets/cars/suzuki/swift.png",
+    "logoPath": "/assets/logos/suzuki.png",
+    "sourcePage": "https://duckduckgo.com/?q=Suzuki+Swift+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Suzuki",
+    "brandSlug": "suzuki",
+    "model": "Ignis",
+    "modelSlug": "ignis",
+    "imagePath": "/assets/cars/suzuki/ignis.png",
+    "logoPath": "/assets/logos/suzuki.png",
+    "sourcePage": "https://duckduckgo.com/?q=Suzuki+Ignis+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Suzuki",
+    "brandSlug": "suzuki",
+    "model": "Vitara",
+    "modelSlug": "vitara",
+    "imagePath": "/assets/cars/suzuki/vitara.png",
+    "logoPath": "/assets/logos/suzuki.png",
+    "sourcePage": "https://duckduckgo.com/?q=Suzuki+Vitara+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Suzuki",
+    "brandSlug": "suzuki",
+    "model": "S-Cross",
+    "modelSlug": "s-cross",
+    "imagePath": "/assets/cars/suzuki/s-cross.png",
+    "logoPath": "/assets/logos/suzuki.png",
+    "sourcePage": "https://duckduckgo.com/?q=Suzuki+S-Cross+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Suzuki",
+    "brandSlug": "suzuki",
+    "model": "Jimny",
+    "modelSlug": "jimny",
+    "imagePath": "/assets/cars/suzuki/jimny.png",
+    "logoPath": "/assets/logos/suzuki.png",
+    "sourcePage": "https://duckduckgo.com/?q=Suzuki+Jimny+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Honda",
+    "brandSlug": "honda",
+    "model": "Civic",
+    "modelSlug": "civic",
+    "imagePath": "/assets/cars/honda/civic.png",
+    "logoPath": "/assets/logos/honda.png",
+    "sourcePage": "https://duckduckgo.com/?q=Honda+Civic+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Honda",
+    "brandSlug": "honda",
+    "model": "Jazz",
+    "modelSlug": "jazz",
+    "imagePath": "/assets/cars/honda/jazz.png",
+    "logoPath": "/assets/logos/honda.png",
+    "sourcePage": "https://duckduckgo.com/?q=Honda+Jazz+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Honda",
+    "brandSlug": "honda",
+    "model": "HR-V",
+    "modelSlug": "hr-v",
+    "imagePath": "/assets/cars/honda/hr-v.png",
+    "logoPath": "/assets/logos/honda.png",
+    "sourcePage": "https://duckduckgo.com/?q=Honda+HR-V+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Honda",
+    "brandSlug": "honda",
+    "model": "CR-V",
+    "modelSlug": "cr-v",
+    "imagePath": "/assets/cars/honda/cr-v.png",
+    "logoPath": "/assets/logos/honda.png",
+    "sourcePage": "https://duckduckgo.com/?q=Honda+CR-V+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Audi",
+    "brandSlug": "audi",
+    "model": "A1",
+    "modelSlug": "a1",
+    "imagePath": "/assets/cars/audi/a1.png",
+    "logoPath": "/assets/logos/audi.png",
+    "sourcePage": "https://duckduckgo.com/?q=Audi+A1+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Audi",
+    "brandSlug": "audi",
+    "model": "A3",
+    "modelSlug": "a3",
+    "imagePath": "/assets/cars/audi/a3.png",
+    "logoPath": "/assets/logos/audi.png",
+    "sourcePage": "https://duckduckgo.com/?q=Audi+A3+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Audi",
+    "brandSlug": "audi",
+    "model": "A4",
+    "modelSlug": "a4",
+    "imagePath": "/assets/cars/audi/a4.png",
+    "logoPath": "/assets/logos/audi.png",
+    "sourcePage": "https://duckduckgo.com/?q=Audi+A4+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Audi",
+    "brandSlug": "audi",
+    "model": "Q2",
+    "modelSlug": "q2",
+    "imagePath": "/assets/cars/audi/q2.png",
+    "logoPath": "/assets/logos/audi.png",
+    "sourcePage": "https://duckduckgo.com/?q=Audi+Q2+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Audi",
+    "brandSlug": "audi",
+    "model": "Q3",
+    "modelSlug": "q3",
+    "imagePath": "/assets/cars/audi/q3.png",
+    "logoPath": "/assets/logos/audi.png",
+    "sourcePage": "https://duckduckgo.com/?q=Audi+Q3+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Audi",
+    "brandSlug": "audi",
+    "model": "Q5",
+    "modelSlug": "q5",
+    "imagePath": "/assets/cars/audi/q5.png",
+    "logoPath": "/assets/logos/audi.png",
+    "sourcePage": "https://duckduckgo.com/?q=Audi+Q5+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Nissan",
+    "brandSlug": "nissan",
+    "model": "Micra",
+    "modelSlug": "micra",
+    "imagePath": "/assets/cars/nissan/micra.png",
+    "logoPath": "/assets/logos/nissan.png",
+    "sourcePage": "https://duckduckgo.com/?q=Nissan+Micra+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Nissan",
+    "brandSlug": "nissan",
+    "model": "Juke",
+    "modelSlug": "juke",
+    "imagePath": "/assets/cars/nissan/juke.png",
+    "logoPath": "/assets/logos/nissan.png",
+    "sourcePage": "https://duckduckgo.com/?q=Nissan+Juke+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Nissan",
+    "brandSlug": "nissan",
+    "model": "Qashqai",
+    "modelSlug": "qashqai",
+    "imagePath": "/assets/cars/nissan/qashqai.png",
+    "logoPath": "/assets/logos/nissan.png",
+    "sourcePage": "https://duckduckgo.com/?q=Nissan+Qashqai+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Nissan",
+    "brandSlug": "nissan",
+    "model": "X-Trail",
+    "modelSlug": "x-trail",
+    "imagePath": "/assets/cars/nissan/x-trail.png",
+    "logoPath": "/assets/logos/nissan.png",
+    "sourcePage": "https://duckduckgo.com/?q=Nissan+X-Trail+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Nissan",
+    "brandSlug": "nissan",
+    "model": "Leaf",
+    "modelSlug": "leaf",
+    "imagePath": "/assets/cars/nissan/leaf.png",
+    "logoPath": "/assets/logos/nissan.png",
+    "sourcePage": "https://duckduckgo.com/?q=Nissan+Leaf+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Mercedes",
+    "brandSlug": "mercedes",
+    "model": "Classe A",
+    "modelSlug": "classe-a",
+    "imagePath": "/assets/cars/mercedes/classe-a.png",
+    "logoPath": "/assets/logos/mercedes.png",
+    "sourcePage": "https://duckduckgo.com/?q=Mercedes+Classe%20A+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Mercedes",
+    "brandSlug": "mercedes",
+    "model": "Classe C",
+    "modelSlug": "classe-c",
+    "imagePath": "/assets/cars/mercedes/classe-c.png",
+    "logoPath": "/assets/logos/mercedes.png",
+    "sourcePage": "https://duckduckgo.com/?q=Mercedes+Classe%20C+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Mercedes",
+    "brandSlug": "mercedes",
+    "model": "GLA",
+    "modelSlug": "gla",
+    "imagePath": "/assets/cars/mercedes/gla.png",
+    "logoPath": "/assets/logos/mercedes.png",
+    "sourcePage": "https://duckduckgo.com/?q=Mercedes+GLA+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Mercedes",
+    "brandSlug": "mercedes",
+    "model": "GLC",
+    "modelSlug": "glc",
+    "imagePath": "/assets/cars/mercedes/glc.png",
+    "logoPath": "/assets/logos/mercedes.png",
+    "sourcePage": "https://duckduckgo.com/?q=Mercedes+GLC+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Mercedes",
+    "brandSlug": "mercedes",
+    "model": "Vito",
+    "modelSlug": "vito",
+    "imagePath": "/assets/cars/mercedes/vito.png",
+    "logoPath": "/assets/logos/mercedes.png",
+    "sourcePage": "https://duckduckgo.com/?q=Mercedes+Vito+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "BMW",
+    "brandSlug": "bmw",
+    "model": "Serie 1",
+    "modelSlug": "serie-1",
+    "imagePath": "/assets/cars/bmw/serie-1.png",
+    "logoPath": "/assets/logos/bmw.png",
+    "sourcePage": "https://duckduckgo.com/?q=BMW+Serie%201+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "BMW",
+    "brandSlug": "bmw",
+    "model": "Serie 3",
+    "modelSlug": "serie-3",
+    "imagePath": "/assets/cars/bmw/serie-3.png",
+    "logoPath": "/assets/logos/bmw.png",
+    "sourcePage": "https://duckduckgo.com/?q=BMW+Serie%203+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "BMW",
+    "brandSlug": "bmw",
+    "model": "X1",
+    "modelSlug": "x1",
+    "imagePath": "/assets/cars/bmw/x1.png",
+    "logoPath": "/assets/logos/bmw.png",
+    "sourcePage": "https://duckduckgo.com/?q=BMW+X1+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "BMW",
+    "brandSlug": "bmw",
+    "model": "X3",
+    "modelSlug": "x3",
+    "imagePath": "/assets/cars/bmw/x3.png",
+    "logoPath": "/assets/logos/bmw.png",
+    "sourcePage": "https://duckduckgo.com/?q=BMW+X3+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "BMW",
+    "brandSlug": "bmw",
+    "model": "X5",
+    "modelSlug": "x5",
+    "imagePath": "/assets/cars/bmw/x5.png",
+    "logoPath": "/assets/logos/bmw.png",
+    "sourcePage": "https://duckduckgo.com/?q=BMW+X5+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Renault",
+    "brandSlug": "renault",
+    "model": "Clio",
+    "modelSlug": "clio",
+    "imagePath": "/assets/cars/renault/clio.png",
+    "logoPath": "/assets/logos/renault.png",
+    "sourcePage": "https://duckduckgo.com/?q=Renault+Clio+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Renault",
+    "brandSlug": "renault",
+    "model": "Captur",
+    "modelSlug": "captur",
+    "imagePath": "/assets/cars/renault/captur.png",
+    "logoPath": "/assets/logos/renault.png",
+    "sourcePage": "https://duckduckgo.com/?q=Renault+Captur+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Renault",
+    "brandSlug": "renault",
+    "model": "Megane",
+    "modelSlug": "megane",
+    "imagePath": "/assets/cars/renault/megane.png",
+    "logoPath": "/assets/logos/renault.png",
+    "sourcePage": "https://duckduckgo.com/?q=Renault+Megane+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Renault",
+    "brandSlug": "renault",
+    "model": "Kadjar",
+    "modelSlug": "kadjar",
+    "imagePath": "/assets/cars/renault/kadjar.png",
+    "logoPath": "/assets/logos/renault.png",
+    "sourcePage": "https://duckduckgo.com/?q=Renault+Kadjar+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Renault",
+    "brandSlug": "renault",
+    "model": "Kangoo",
+    "modelSlug": "kangoo",
+    "imagePath": "/assets/cars/renault/kangoo.png",
+    "logoPath": "/assets/logos/renault.png",
+    "sourcePage": "https://duckduckgo.com/?q=Renault+Kangoo+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Opel",
+    "brandSlug": "opel",
+    "model": "Corsa",
+    "modelSlug": "corsa",
+    "imagePath": "/assets/cars/opel/corsa.png",
+    "logoPath": "/assets/logos/opel.png",
+    "sourcePage": "https://duckduckgo.com/?q=Opel+Corsa+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Opel",
+    "brandSlug": "opel",
+    "model": "Astra",
+    "modelSlug": "astra",
+    "imagePath": "/assets/cars/opel/astra.png",
+    "logoPath": "/assets/logos/opel.png",
+    "sourcePage": "https://duckduckgo.com/?q=Opel+Astra+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Opel",
+    "brandSlug": "opel",
+    "model": "Mokka",
+    "modelSlug": "mokka",
+    "imagePath": "/assets/cars/opel/mokka.png",
+    "logoPath": "/assets/logos/opel.png",
+    "sourcePage": "https://duckduckgo.com/?q=Opel+Mokka+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Opel",
+    "brandSlug": "opel",
+    "model": "Crossland",
+    "modelSlug": "crossland",
+    "imagePath": "/assets/cars/opel/crossland.png",
+    "logoPath": "/assets/logos/opel.png",
+    "sourcePage": "https://duckduckgo.com/?q=Opel+Crossland+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Opel",
+    "brandSlug": "opel",
+    "model": "Grandland",
+    "modelSlug": "grandland",
+    "imagePath": "/assets/cars/opel/grandland.png",
+    "logoPath": "/assets/logos/opel.png",
+    "sourcePage": "https://duckduckgo.com/?q=Opel+Grandland+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Alfa Romeo",
+    "brandSlug": "alfa-romeo",
+    "model": "Giulietta",
+    "modelSlug": "giulietta",
+    "imagePath": "/assets/cars/alfa-romeo/giulietta.png",
+    "logoPath": "/assets/logos/alfa-romeo.png",
+    "sourcePage": "https://duckduckgo.com/?q=Alfa%20Romeo+Giulietta+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Alfa Romeo",
+    "brandSlug": "alfa-romeo",
+    "model": "Giulia",
+    "modelSlug": "giulia",
+    "imagePath": "/assets/cars/alfa-romeo/giulia.png",
+    "logoPath": "/assets/logos/alfa-romeo.png",
+    "sourcePage": "https://duckduckgo.com/?q=Alfa%20Romeo+Giulia+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Alfa Romeo",
+    "brandSlug": "alfa-romeo",
+    "model": "Stelvio",
+    "modelSlug": "stelvio",
+    "imagePath": "/assets/cars/alfa-romeo/stelvio.png",
+    "logoPath": "/assets/logos/alfa-romeo.png",
+    "sourcePage": "https://duckduckgo.com/?q=Alfa%20Romeo+Stelvio+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  },
+  {
+    "brand": "Alfa Romeo",
+    "brandSlug": "alfa-romeo",
+    "model": "Tonale",
+    "modelSlug": "tonale",
+    "imagePath": "/assets/cars/alfa-romeo/tonale.png",
+    "logoPath": "/assets/logos/alfa-romeo.png",
+    "sourcePage": "https://duckduckgo.com/?q=Alfa%20Romeo+Tonale+side+profile+car+png+transparent&iax=images&ia=images",
+    "needsManualDownload": false
+  }
+]

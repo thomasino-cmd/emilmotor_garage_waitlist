@@ -5,9 +5,9 @@ import { DndContext, DragEndEvent, DragStartEvent, useDraggable, useDroppable, D
 import Link from 'next/link';
 import { appointments, clients, vehicles } from '@/lib/mock-db';
 import { BlueprintCar } from './blueprint-car';
-import { LicensePlate } from './license-plate';
 import { BrandLogo } from './brand-logo';
 import { cn } from '@/lib/utils';
+import vehiclesData from '../../public/vehicles.json';
 
 type Column = 'In Attesa' | 'Sui Ponti' | 'Pronti';
 
@@ -24,7 +24,7 @@ function Card({ id, vehicleId, isLarge = false, isClone = false }: { id: string;
   // When being dragged and NOT the floating clone, just render a faded placeholder
   // This prevents layout shifts and jumping widths
   const opacityClass = (isDragging && !isClone) ? "opacity-30" : "opacity-100";
-  const draggingClass = (isDragging && !isClone) ? "bg-slate-50 border-dashed" : "bg-white hover:border-blue-300 hover:shadow-md";
+  const draggingClass = (isDragging && !isClone) ? "bg-slate-50 border-dashed" : "bg-white hover:border-blue-300 hover:shadow-lg";
 
   return (
     <div
@@ -32,39 +32,46 @@ function Card({ id, vehicleId, isLarge = false, isClone = false }: { id: string;
       {...listeners}
       {...attributes}
       className={cn(
-        "group relative flex-shrink-0 cursor-grab rounded-2xl border shadow-sm transition-all",
-        isLarge ? "w-80 p-4" : "w-full p-3",
+        "group relative flex-shrink-0 cursor-grab flex flex-col justify-between overflow-hidden rounded-3xl border shadow-sm transition-all duration-300",
+        isLarge ? "w-80 p-5 min-h-[300px]" : "w-full p-4 min-h-[220px]",
         opacityClass,
         draggingClass,
-        isClone ? "shadow-2xl ring-4 ring-blue-500/20 cursor-grabbing rotate-2" : undefined
+        isClone ? "shadow-2xl ring-4 ring-blue-500/20 cursor-grabbing rotate-2 scale-105" : undefined
       )}
     >
-      <div className="mb-3 flex items-start justify-between gap-2">
-        {vehicle.licensePlate ? (
-          <LicensePlate plate={vehicle.licensePlate} className={isLarge ? "text-lg" : "min-h-8 text-sm"} />
-        ) : (
-          <div className="rounded-md border-2 border-dashed border-slate-300 bg-slate-50 px-3 py-1 text-xs font-bold text-slate-500">
-            TARGA ASSENTE
-          </div>
-        )}
-        <BrandLogo brand={vehicle.make} className={cn("text-slate-700", isLarge ? "h-10 w-10" : "h-8 w-8")} />
+      {/* Brand logo in background */}
+      <div className="absolute -right-8 -top-12 opacity-[0.04] pointer-events-none">
+        <BrandLogo brand={vehicle.make} className={isLarge ? "h-80 w-80" : "h-64 w-64"} />
       </div>
 
-      <BlueprintCar shape={vehicle.blueprintShape || 'sedan'} color={vehicle.color || '#60a5fa'} className={isLarge ? "mb-3 h-32" : "mb-2 h-24"} />
+      {/* Top action button (go to detail) overlay */}
+      <div className="absolute left-4 top-4 z-20" onPointerDown={e => e.stopPropagation()}>
+        <Link href={`/vehicle/${vehicle.id}`} className="flex items-center justify-center rounded-full bg-slate-100 h-10 w-10 text-slate-400 transition-colors hover:bg-blue-600 hover:text-white hover:shadow-md">
+          <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </Link>
+      </div>
 
-      <div className="flex items-end justify-between">
-        <div>
-          <p className={cn("font-bold text-slate-900", isLarge ? "text-base" : "text-sm")}>{client.fullName}</p>
-          <p className={cn("text-slate-500", isLarge ? "text-sm" : "text-xs")}>{vehicle.make} {vehicle.model}</p>
-        </div>
+      <div className="flex-1 flex flex-col justify-center items-center z-10 w-full relative">
+        {(() => {
+          const vData = vehiclesData.find(vd => vd.brand === vehicle.make && vd.model === vehicle.model);
+          if (vData && vData.imagePath) {
+            return (
+              <div className={cn("relative flex items-center justify-center w-full", isLarge ? "mb-4 h-44" : "mb-3 h-32")}>
+                <img src={vData.imagePath} alt={`${vehicle.make} ${vehicle.model}`} className="max-h-full max-w-full object-contain drop-shadow-xl transition-transform group-hover:scale-110 duration-500" />
+              </div>
+            )
+          }
+          return <BlueprintCar shape={vehicle.blueprintShape || 'sedan'} color={vehicle.color || '#3b82f6'} className={cn("w-full transition-transform group-hover:scale-105 duration-300", isLarge ? "mb-4 h-40" : "mb-3 h-28")} />
+        })()}
+      </div>
 
-        {/* We stop pointer events to prevent clicking while dragging */}
-        <div onPointerDown={e => e.stopPropagation()}>
-          <Link href={`/vehicle/${vehicle.id}`} className="block rounded-lg bg-slate-100 p-2 text-slate-600 transition-colors hover:bg-blue-100 hover:text-blue-700 cursor-pointer">
-            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
+      <div className="relative z-20 pt-2 border-t border-slate-100 bg-white/80">
+        <p className={cn("font-black tracking-tight text-slate-900 leading-tight mb-1 truncate", isLarge ? "text-xl" : "text-lg")}>{client.fullName}</p>
+        <div className="flex justify-between items-end mt-1 relative h-6">
+          <p className={cn("font-bold text-slate-500 truncate pr-2 absolute bottom-0", isLarge ? "text-base" : "text-sm")}>{vehicle.make} {vehicle.model}</p>
+          <BrandLogo brand={vehicle.make} className={cn("text-slate-300 flex-shrink-0 drop-shadow-sm absolute right-0 bottom-[-10px]", isLarge ? "h-32 w-32" : "h-28 w-28")} />
         </div>
       </div>
     </div>

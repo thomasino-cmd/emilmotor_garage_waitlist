@@ -4,6 +4,7 @@ import React from 'react';
 import { BlueprintCar } from './blueprint-car';
 import { BlueprintShape } from '@/lib/types';
 import { vehicles } from '@/lib/mock-db';
+import vehiclesData from '../../public/vehicles.json';
 
 const SHAPES: BlueprintShape[] = ['compact', 'sedan', 'wagon', 'suv', 'van', 'sport'];
 const COLORS = ['#2563eb', '#dc2626', '#0f766e', '#7c3aed', '#f59e0b', '#374151'];
@@ -49,12 +50,23 @@ export function VehicleLookup() {
 
       {result && (
         <div className="mt-4 grid gap-3 lg:grid-cols-3">
-          <div className="rounded-xl border p-3">
+          <div className="rounded-xl border p-3 flex flex-col items-center justify-center">
             <p className="text-lg font-bold">{result.make} {result.model}</p>
             <p>{result.year}</p>
-            <BlueprintCar shape={shape} color={color} />
+            {(() => {
+              const vData = vehiclesData.find(vd => vd.brand === result.make && vd.model === result.model);
+              if (vData && vData.imagePath) {
+                return (
+                  <div className="relative flex items-center justify-center h-24 mb-2 mt-2 w-full">
+                    <img src={vData.imagePath} alt={`${result.make} ${result.model}`} className="max-h-full max-w-full object-contain drop-shadow-md" />
+                  </div>
+                )
+              }
+              return <BlueprintCar shape={shape} color={color} />
+            })()}
           </div>
           <div className="rounded-xl border p-3 lg:col-span-2">
+            <p className="mb-2 font-bold">In caso di modello non in database o personalizzazioni temporanee, puoi selezionare una sagoma di base qui sotto:</p>
             <p className="mb-2 font-bold">Seleziona sagoma</p>
             <div className="grid grid-cols-3 gap-2">
               {SHAPES.map((s) => (

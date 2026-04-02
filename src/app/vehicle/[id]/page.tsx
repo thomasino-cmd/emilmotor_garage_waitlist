@@ -4,8 +4,10 @@ import React from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { clients, jobs as jobsDb, vehicles, appointments as appointmentsDb } from '@/lib/mock-db';
-import { LicensePlate } from '@/components/license-plate';
 import { TagToggleGrid } from '@/components/tag-toggle-grid';
+import { BrandLogo } from '@/components/brand-logo';
+import { BlueprintCar } from '@/components/blueprint-car';
+import vehiclesData from '../../../../public/vehicles.json';
 
 export default function VehicleProfilePage() {
   const { id } = useParams<{ id: string }>();
@@ -57,8 +59,10 @@ export default function VehicleProfilePage() {
     router.push('/');
   };
 
+  const vData = vehiclesData.find(vd => vd.brand === vehicle.make && vd.model === vehicle.model);
+
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <div className="mb-2">
         <Link href="/" className="inline-flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-blue-600 transition-colors">
           <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
@@ -66,14 +70,31 @@ export default function VehicleProfilePage() {
         </Link>
       </div>
 
-      <header className="rounded-3xl border bg-slate-50 p-4">
-        {vehicle.licensePlate ? (
-          <LicensePlate plate={vehicle.licensePlate} className="mb-2" />
-        ) : (
-          <span className="inline-block rounded-md border-2 border-dashed border-slate-300 bg-slate-100 px-3 py-1 text-xs font-bold text-slate-500 mb-2">TARGA ASSENTE</span>
-        )}
-        <h2 className="mt-2 text-3xl font-black">{vehicle.make} {vehicle.model} ({vehicle.year || 'Anno N/D'})</h2>
-        <p className="text-lg">Cliente: {client.fullName}</p>
+      <header className="rounded-3xl border bg-slate-50 p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden relative shadow-sm">
+        {/* Background Logo */}
+        <div className="absolute -right-16 -bottom-16 opacity-[0.03] pointer-events-none">
+          <BrandLogo brand={vehicle.make} className="h-[400px] w-[400px]" />
+        </div>
+
+        <div className="z-10 relative flex-1">
+          <h2 className="text-4xl sm:text-5xl font-black text-slate-900 tracking-tight leading-none mb-2">
+            {vehicle.make} {vehicle.model}
+          </h2>
+          <p className="text-xl font-bold text-slate-400 mb-6">Anno: {vehicle.year || 'N/D'}</p>
+
+          <div className="inline-block bg-white rounded-2xl px-6 py-4 shadow-sm border border-slate-100">
+            <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Cliente</p>
+            <p className="text-2xl font-black text-slate-800">{client.fullName}</p>
+          </div>
+        </div>
+
+        <div className="w-full md:w-1/2 h-56 md:h-72 relative flex items-center justify-center z-10 perspective-1000">
+          {vData && vData.imagePath ? (
+            <img src={vData.imagePath} alt={`${vehicle.make} ${vehicle.model}`} className="max-h-full max-w-full object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" />
+          ) : (
+            <BlueprintCar shape={vehicle.blueprintShape || 'sedan'} color={vehicle.color || '#3b82f6'} className="w-full h-full hover:scale-105 transition-transform duration-500" />
+          )}
+        </div>
       </header>
 
       <div className="grid gap-4 lg:grid-cols-[7fr_3fr]">
